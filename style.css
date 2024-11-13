@@ -218,7 +218,7 @@ img{
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.5);
 } 
 .hero-content{
   display: flex;
@@ -250,7 +250,7 @@ img{
 /*About Section*/
 .grid{
   display: grid;
-  gap: 2rem;
+  gap: 1rem;
   align-items: center;
   justify-content: center;
 }
