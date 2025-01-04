@@ -22,6 +22,9 @@ ol[role='list'] {
 html:focus-within {
   scroll-behavior: smooth;
 }
+html{
+  scroll-behavior: smooth !important;
+}
 
 /* Set core body defaults */
 body {
@@ -76,7 +79,7 @@ body{
   background-color: #fff;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  font-style: normal
+  font-style: normal;
   font-size: 1rem;
 }
 p{
@@ -320,6 +323,9 @@ img{
   font-size: 1rem;
   font-weight: 400;
   padding-left: 0.5rem;
+}
+.skills img{
+  width: 35px;
 }
 .fa-brands{
   cursor: pointer;
