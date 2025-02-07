@@ -3,6 +3,9 @@ const menubtns = document.querySelector(".menu-btns");
 const hamburger = document.querySelector(".hamburger");
 const closemenu = document.querySelector(".close-menu");
 const sidebar = document.querySelector(".sidebar");
+const copyrightmsg = document.querySelector(".copyright-msg .date");
+
+copyrightmsg.innerHTML = new Date().getFullYear();
 
 hamburger.addEventListener("click", function(){
   sidebar.style.display="flex";
