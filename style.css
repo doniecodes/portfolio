@@ -176,7 +176,7 @@ img{
 .btn2:hover{
   background-color: hsl(210, 100%, 70%);
   color: #fff;
-  border: none;
+  border: 2px solid transparent;
   cursor: pointer;
 }
 .logo{
