@@ -1,3 +1,4 @@
+
 //mobile sidebar
 const menubtns = document.querySelector(".menu-btns");
 const hamburger = document.querySelector(".hamburger");
@@ -38,3 +39,21 @@ window.addEventListener('scroll', function(){
     header.classList.remove("bg");
   }
 })
+
+// Contact form.
+const form = document.querySelector(".form");
+const formBtn = document.querySelector("#submit-btn");
+
+
+window.onload = function() {
+      form.addEventListener('submit', function(event) {
+      event.preventDefault();
+      // these IDs from the previous steps
+      emailjs.sendForm('service_1w13yri', 'template_bf4mdcf', this)
+      .then(() => {
+      console.log('SUCCESS!');
+      }, (error) => {
+          console.log('FAILED...', error);
+      });
+    });
+}
