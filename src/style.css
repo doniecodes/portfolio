@@ -635,7 +635,7 @@ body{
     left: 0;
     height: auto;
     background-color: hsl(50, 43%, 98%);
-    display: none;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -795,10 +795,16 @@ body{
     display: inline;
     font-size: 2.5rem;
   }
+.sidebar {
+   display: none;
+}
 }
 
 /* 600px */
 @media (max-width: 600px){
+.sidebar {
+display: none;
+}
   .container{
     width: 100%;
     padding: 0 1rem;
