@@ -269,13 +269,14 @@ body{
   text-decoration: underline 0.180rem;
   text-decoration-color: hsl(210, 100%, 50%);
   text-underline-offset: 0.4rem;
+  font-size: 1.8rem;
   font-weight: 700;
 }
 .heading-1 span:nth-of-type(2){
   font-weight: 300;
   font-style: normal;
   display: block;
-  padding-top: 10px;
+  padding-top: 5px;
 }
 
 /*About Section*/
