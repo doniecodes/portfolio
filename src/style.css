@@ -635,7 +635,7 @@ body{
     left: 0;
     height: auto;
     background-color: hsl(50, 43%, 98%);
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     justify-content: center;
